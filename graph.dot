@@ -1,0 +1,13 @@
+digraph git_graph {
+  rankdir=TB;
+  splines=ortho;
+  node [shape=box, style="rounded,filled", fontname="Helvetica"];
+  edge [color="#555555"];
+  "de813de" [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="4"><TR><TD><B>de813de</B></TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#666666">17-Octobre-2026 20:53:25</FONT></TD></TR><TR><TD BGCOLOR="#d1e7dd"><FONT COLOR="#0f5132" POINT-SIZE="10"><B>(tag: GIFA010000UN</B></FONT></TD></TR></TABLE>>, fillcolor="#f0f4f8"];
+  "75e2c11" [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="4"><TR><TD><B>75e2c11</B></TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#666666">17-Octobre-2026 20:53:39</FONT></TD></TR><TR><TD BGCOLOR="#d1e7dd"><FONT COLOR="#0f5132" POINT-SIZE="10"><B>(tag: GIFA020000UN</B></FONT></TD></TR><TR><TD BGCOLOR="#fff3cd"><FONT COLOR="#664d03" POINT-SIZE="10"><B>origin/main</B></FONT></TD></TR><TR><TD BGCOLOR="#fff3cd"><FONT COLOR="#664d03" POINT-SIZE="10"><B>main</B></FONT></TD></TR></TABLE>>, fillcolor="#f0f4f8"];
+  "de813de" -> "75e2c11";
+  "d7f313d" [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="4"><TR><TD><B>d7f313d</B></TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#666666">17-Octobre-2026 20:54:17</FONT></TD></TR><TR><TD BGCOLOR="#d1e7dd"><FONT COLOR="#0f5132" POINT-SIZE="10"><B>(tag: GIFA021001UN</B></FONT></TD></TR></TABLE>>, fillcolor="#f0f4f8"];
+  "75e2c11" -> "d7f313d";
+  "72a5c70" [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="3" CELLPADDING="4"><TR><TD><B>72a5c70</B></TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#666666">17-Octobre-2026 20:54:33</FONT></TD></TR><TR><TD BGCOLOR="#d1e7dd"><FONT COLOR="#0f5132" POINT-SIZE="10"><B>tag: GIFA021002UN</B></FONT></TD></TR><TR><TD BGCOLOR="#fff3cd"><FONT COLOR="#664d03" POINT-SIZE="10"><B>(HEAD -&gt; B-DIA-EVOL1</B></FONT></TD></TR><TR><TD BGCOLOR="#fff3cd"><FONT COLOR="#664d03" POINT-SIZE="10"><B>origin/B-DIA-EVOL1</B></FONT></TD></TR></TABLE>>, fillcolor="#f0f4f8"];
+  "d7f313d" -> "72a5c70";
+}
