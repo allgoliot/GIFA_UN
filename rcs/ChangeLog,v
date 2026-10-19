@@ -1,0 +1,27 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2026.10.19.22.00.41;	author vtom;	state Exp;
+branches;
+next	;
+
+
+desc
+@Changelog Git
+@
+
+
+1.1
+log
+@Git commit 2ecd0cd: test versnio
+@
+text
+@VERSION: GIFA021003UN ----------------- FS:CNAM_01140316
+2026-02-05 DIA-Allan GOLIOT <dex_ago.dps.cnam@@assurance-maladie.fr>3
+	* doc/GTO-GIFA_UN.xlsx: maj onglet VERSION et "lanceurGIFAJ130.sh" 
+@
